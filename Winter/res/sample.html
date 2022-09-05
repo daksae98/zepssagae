@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      ::-webkit-scrollbar {
+        display: none;
+      }
+
+      body {
+        -ms-overflow-style: none;
+      }
+
+      .container {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .content {
+        display: flex;
+        min-height: 250px;
+        justify-content: center;
+        align-items: center;
+        background-color: beige;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 7px;
+        font-size: 18px;
+        font-weight: bold;
+        color: black;
+      }
+
+      hr {
+        border-width: 2px;
+      }
+
+      i {
+        cursor: pointer;
+      }
+
+      .box {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 1024px;
+        height: 500px;
+        border-radius: 7px;
+        border-color: bisque;
+        background-color: white;
+        border-width: 2px;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+      }
+
+      .header {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .footer {
+        justify-self: flex-end;
+        align-self: center;
+      }
+
+      img {
+        width: 20%;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <div class="header">
+          <div class="button_close"><i class="fa-solid fa-xmark"></i></div>
+        </div>
+        <hr />
+        <div class="content">Does james like to swim?</div>
+      </div>
+    </div>
+  </body>
+</html>
